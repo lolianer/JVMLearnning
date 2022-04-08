@@ -6,7 +6,7 @@ package com.atguigu.java;
  */
 public class SubInitializationTest extends InitializationTest{
     static {
-        number = 4;
+        number = 4;//number属性必须提前已经加载好   ：一定会先加载父类
         System.out.println("father stayic{}");
     }
 
